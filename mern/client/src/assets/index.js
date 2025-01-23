@@ -1,4 +1,5 @@
 import brandLogo from "./logo_1.png"
+import navLogo from "./nav_logo.jpg"
 import donorpng from "./donor.png"
 import loginpgpic from "./loginpgpic.png"
 import we_rescue_food_image from "./we_rescue_food_image.jpg"
@@ -24,6 +25,7 @@ import Aboutus from "./Aboutus.png";
 
 
 export {
+    navLogo,
     brandLogo,
     donorpng,
     loginpgpic,

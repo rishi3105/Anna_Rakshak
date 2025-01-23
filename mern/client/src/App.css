@@ -5,7 +5,7 @@
 }
 
 .Navheader {
-  min-height: 100vh;  
+  min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(./assets/fresh-greens-white-background.jpg);
@@ -16,7 +16,8 @@
 
 nav {
   display: flex;
-  padding: 2% 4%;
+  height: 13vh;
+  /* padding: 2% 4%; */
   justify-content: space-between;
   text-align: center;
   align-items: center;
@@ -34,14 +35,14 @@ nav img {
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 18px 22px;
   position: relative;
 }
 
 .nav-links ul li a {
   text-decoration: none;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .nav-links ul li::after {
@@ -50,7 +51,7 @@ nav img {
   height: 2px;
   display: block;
   margin: auto;
-  background: lightgreen;
+  background: #e74c3c;
   transition: 1s;
 }
 
@@ -83,6 +84,7 @@ nav img {
   text-decoration: none;
   padding: 12px 34px;
   border: 1px solid white;
+  border-radius: 15px;
   background: transparent;
   color: white;
   font-size: 15px;
@@ -91,9 +93,10 @@ nav img {
 }
 
 .ExploreBtn:hover {
-  border: 1px solid lightgreen;
-  background-color: lightgreen;
-  transition: 1s;
+  border: 1px solid #e74c3c;
+  background-color: #e74c3c;
+  border-radius: 15px;
+  transition: 0.25s;
   color: black;
 }
 
@@ -103,17 +106,20 @@ nav img {
   text-decoration: none;
   padding: 10px 30px;
   border: 1px solid white;
+  border-radius: 15px;
   background: transparent;
   color: white;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
+  
 }
 
 .logInBtn:hover {
-  border: 1px solid lightgreen;
-  background-color: lightgreen;
-  transition: 0.7s;
+  border: 1px solid #e74c3c;
+  background-color: #e74c3c;
+  border-radius: 15px;
+  transition: 0.25s;
   color: black;
 }
 
@@ -153,14 +159,14 @@ p {
 }
 .info-col {
   flex-basis: 32%;
-    display: flex;
-    place-items: center;
-    flex-direction: column;
-    background-color: #a9f3aa;
-    border-radius: 10px;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  background-color: #a9f3aa;
+  border-radius: 10px;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
 }
 
 .info-col p {
@@ -169,17 +175,24 @@ p {
 
 h3 {
   text-align: center;
-    margin: 10px 0 !important;
-    font-weight: 600 !important;
+  margin: 10px 0 !important;
+  font-weight: 600 !important;
 }
 
 .info-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 .logo-link {
+  font-size: 30px;
+  text-decoration: none;
   display: inline-block;
   margin-right: 20px;
-} 
+}
+
+.logo-link:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 
 nav {
   display: flex;
@@ -190,5 +203,5 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1000; 
+  z-index: 1000;
 }
