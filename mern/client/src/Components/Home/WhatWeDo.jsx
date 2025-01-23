@@ -22,7 +22,7 @@ function WhatWeDo() {
             <div className="about-section">
               <div className="content-with-image"> 
                 <div className="text-content">
-                  <h2>What we do ?</h2>
+                  <h2>What we do?</h2>
                   <p>
                     We're a platform connecting restaurants, households, and businesses
                     with local NGOs and food shelters. Our mission is to reduce food

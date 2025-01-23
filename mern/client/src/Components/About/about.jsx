@@ -13,7 +13,7 @@ const About = () => {
       <div className="MissionVisionContainer">
         <section className="Mission">
           <div className="innerDiv">
-            <h2>Our Mission</h2>
+            <h2>Our Mission!</h2>
             <div className="content">
               FoodShare is a digital platform that aims to address the issue of
               food wastage by connecting restaurants, grocery stores, and

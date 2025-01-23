@@ -23,11 +23,11 @@ export default function mainLine({ user, userRole }) {
 
     return (
         <div className="textBox">
-            <h1>Food Rescue</h1>
+            <div className="title">Anna Rakshak</div>
             <p>Join Us in Fighting Hunger: Together, Lets Make a Difference by Sharing Meals and Nurturing Hope in Every Bite!</p>
-            <button className="ExploreBtn" onClick={handleDonateClick}>
+            {userRole==='donor' && <button className="ExploreBtn" onClick={handleDonateClick}>
                 Donate
-            </button>
+            </button>}
         </div>
     )
 }
