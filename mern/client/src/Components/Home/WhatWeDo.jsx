@@ -1,49 +1,85 @@
-import { we_rescue_food_image, we_create_community_image, happiness_image } from "../../assets";
+import React from "react";
+
+import { Carousel } from "react-responsive-carousel";
+import {Waste1,Waste2,Waste3,Waste4, Aboutus } from "../../assets";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import Carousel CSS
+
+
+//import Aboutus from "../../images/aboutus.png"; // Import your image
 import { } from "../css/WhatWeDo.css";
 
-export default function WhatWeDo({ id }) {
+function WhatWeDo() {
     return (
-        <>
-            <section id={id}>
-                <div className=" container mt-5 mb-3">
-                    <h1 className="centreHeading">WHAT WE DO ?</h1>
-                    <div className="row m-5">
-                        <div className="col">
-                            <div className="card">
-                                <img src={we_rescue_food_image} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">We Rescue Food</h5>
-                                    <p style={{
-                                        padding: 0
-                                    }} className="card-text">Using our web-based app, we engage volunteers to transfer fresh food surpluses from local businesses to social service agencies serving the food insecure.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="card">
-                                <img src={we_create_community_image} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">We Create Community</h5>
-                                    <p style={{
-                                        padding: 0
-                                    }} className="card-text">Our model empowers communities to serve themselves with the support of our app. All participants in our work are members of the communities that we serve.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="card">
-                                <img src={happiness_image} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">We Bring Smile</h5>
-                                    <p style={{
-                                        padding: 0
-                                    }} className="card-text">Fueling Smiles, Nourishing Souls: Our Passionate Drive to Alleviate Hunger, Embrace Unity, Compassion and Paint Brighter Tomorrows Through Food Donation. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section className="about">
+          {/* About Us Heading */}
+          <div className="about-heading">
+            <h1>About Us</h1>
+          </div>
+    
+          {/* Main Content Area */}
+          <div className="about-container">
+            {/* Upper Div: What We Do */}
+            <div className="about-section">
+              <div className="content-with-image"> 
+                <div className="text-content">
+                  <h2>What we do ?</h2>
+                  <p>
+                    We're a platform connecting restaurants, households, and businesses
+                    with local NGOs and food shelters. Our mission is to reduce food
+                    waste and ensure that surplus food reaches those in need. We believe
+                    that no one should go hungry when perfectly good food is being
+                    discarded. By bridging the gap between those with excess food and
+                    those who need it most, we're building a more sustainable and
+                    compassionate community.
+                  </p>
+                  <h5>Join us in our mission to fight hunger and reduce food waste!!</h5>
                 </div>
-            </section>
-        </>
-    )
+                <img src={Aboutus} alt="About Us Image" className="about-image" /> 
+              </div>
+            </div>
+    
+            {/* Lower Div: Food Wastage */}
+            <div className="about-section food-wastage-section">
+              <div className="content">
+                <h2>Food Wastage!</h2>
+                <p>
+                  Did you know that about 84.3% of unused food in restaurants and
+                  households ends up in the trash? Additionally, the hotel industry
+                  produces 79,000 tons of food waste annually. This not only adds to
+                  the growing concern about food waste in landfills but also
+                  highlights a critical need for sustainable waste management in the
+                  sector.
+                </p>
+              </div>
+    
+              {/* Carousel */}
+              <div className="carousel-container">
+                <Carousel
+                  autoPlay
+                  infiniteLoop
+                  showThumbs={false}
+                  showStatus={false}
+                  interval={3000}
+                  className="carousel"
+                >
+                  <div>
+                    <img src={Waste1} alt="Food Waste 1" />
+                  </div>
+                  <div>
+                    <img src={Waste2} alt="Food Waste 2" />
+                  </div>
+                  <div>
+                    <img src={Waste3} alt="Food Waste 3" />
+                  </div>
+                  <div>
+                    <img src={Waste4} alt="Food Waste 4" />
+                  </div>
+                </Carousel>
+              </div>
+            </div>
+          </div>
+        </section>
+      );
 }
+
+export default WhatWeDo;
