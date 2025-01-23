@@ -1,4 +1,5 @@
-import "../../App.css"
+//import "../../App.css"
+import "../css/mainline.css"
 import { useNavigate } from 'react-router-dom';
 
 export default function mainLine({ user, userRole }) {
@@ -24,7 +25,7 @@ export default function mainLine({ user, userRole }) {
     return (
         <div className="textBox">
             <div className="title">Anna Rakshak</div>
-            <p>Join Us in Fighting Hunger: Together, Lets Make a Difference by Sharing Meals and Nurturing Hope in Every Bite!</p>
+            <h4>Join Us in Fighting Hunger: Together, Lets Make a Difference by Sharing Meals and Nurturing Hope in Every Bite!</h4>
             {userRole==='donor' && <button className="ExploreBtn" onClick={handleDonateClick}>
                 Donate
             </button>}

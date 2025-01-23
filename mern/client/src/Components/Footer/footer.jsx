@@ -29,10 +29,10 @@ export default function footer() {
                             <h5>Tabs</h5>
                             <br></br>
                             <ul className="nav flex-column">
-                                <li className="nav-item abc mb-2"><a href="/" className="nav-link p-0 ">Home</a></li>
-                                <li className="nav-item abc mb-2"><a href="#whatwedo" className="nav-link p-0 ">What We Do</a></li>
-                                <li className="nav-item  abc mb-2"><a href="#sponsors" className="nav-link p-0 ">Our Partners</a></li>
-                                <li className="nav-item abc mb-2"><a href="/contact" className="nav-link p-0 ">Contact Us</a></li>
+                                <li className="nav-item "><a href="/" className="nav-link  ">Home</a></li>
+                                <li className="nav-item abc mb-2"><a href="#whatwedo" className="nav-link  ">What We Do</a></li>
+                                <li className="nav-item  abc mb-2"><a href="#sponsors" className="nav-link  ">Our Partners</a></li>
+                                <li className="nav-item abc mb-2"><a href="/contact" className="nav-link  ">Contact Us</a></li>
                             </ul>
                         </div>
 

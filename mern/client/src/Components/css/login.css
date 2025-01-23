@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+/* @import url ("../assets/Bglogin.png") */
 /* * {
   margin: 0;
   padding: 0;
@@ -6,12 +7,16 @@
   font-family: "Poppins", sans-serif;
 } */
 
+/* Main container styling */
 .loginMain {
   display: grid;
   height: 100vh;
   width: 100vw !important;
   place-items: center;
-  background: -webkit-linear-gradient(left, rgb(102, 235, 102), green);
+  background: -webkit-linear-gradient(left, #863a32, #e74c3c);
+  align-items: center;
+  justify-content: center;
+  
   /* background: -webkit-linear-gradient(left, rgb(102, 235, 102), green); */
 }
 ::selection {
@@ -20,15 +25,18 @@
 }
 .wrapper {
   overflow: hidden;
+  height: 85vh;
   width: 400px;
   background: #fff;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px rgb(255, 255, 255);
+  
 }
 .wrapper .title-text {
   display: flex;
   width: 200%;
+  
 }
 .wrapper .title {
   width: 50%;
@@ -36,6 +44,9 @@
   font-weight: 600;
   text-align: center;
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ 
+  
+
 }
 .wrapper .slide-controls {
   position: relative;
@@ -70,7 +81,7 @@
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, rgb(102, 235, 102), green);
+  background: -webkit-linear-gradient(left, #863a32, #e74c3c);
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 input[type="radio"] {
@@ -163,10 +174,8 @@ form .btn .btn-layer {
   left: -100%;
   background: -webkit-linear-gradient(
     right,
-    rgb(102, 235, 102),
-    green,
-    rgb(102, 235, 102),
-    green
+     #863a32, #e74c3c
+    
   );
   border-radius: 5px;
   transition: all 0.4s ease;
@@ -225,6 +234,6 @@ form .btn input[type="submit"] {
 }
 
 .circular-icon:hover {
-  background: linear-gradient(to right, rgb(102, 235, 102), green, rgb(102, 235, 102), green);
+  background: linear-gradient(to right, #863a32, #e74c3c);
   color: #fff;
 }
