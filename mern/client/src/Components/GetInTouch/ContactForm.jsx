@@ -13,7 +13,7 @@ export default function ContactForm() {
                                     type="text"
                                     name="firstname"
                                     id="firstname"
-                                    placeholder="Abdul"
+                                    placeholder="Ram"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="firstname" className="formbold-form-label"> First name </label>
@@ -23,7 +23,7 @@ export default function ContactForm() {
                                     type="text"
                                     name="lastname"
                                     id="lastname"
-                                    placeholder="Sameer"
+                                    placeholder="Singh"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="lastname" className="formbold-form-label"> Last name </label>
@@ -36,7 +36,7 @@ export default function ContactForm() {
                                     type="email"
                                     name="email"
                                     id="email"
-                                    placeholder="jhon@mail.com"
+                                    placeholder="ramsingh2022@mail.com"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="email" className="formbold-form-label"> Mail </label>
@@ -46,7 +46,7 @@ export default function ContactForm() {
                                     type="text"
                                     name="phone"
                                     id="phone"
-                                    placeholder="0300 00000000"
+                                    placeholder="9988776654"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="phone" className="formbold-form-label"> Phone </label>

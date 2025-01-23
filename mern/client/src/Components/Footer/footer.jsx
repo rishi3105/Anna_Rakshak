@@ -27,6 +27,7 @@ export default function footer() {
                     <div className="row">
                         <div className="col-2">
                             <h5>Tabs</h5>
+                            <br></br>
                             <ul className="nav flex-column">
                                 <li className="nav-item abc mb-2"><a href="/" className="nav-link p-0 ">Home</a></li>
                                 <li className="nav-item abc mb-2"><a href="#whatwedo" className="nav-link p-0 ">What We Do</a></li>
@@ -38,13 +39,14 @@ export default function footer() {
                         
 
                         <div className="col-4 ">
-                            <h5>About Us</h5>
+                            <h5>About Us</h5><br></br>
                             <p className=' p-0'>Food Rescue is dedicated to eliminating hunger and food waste. Our mission is to keep food out of landfills and reduce greenhouse gases. We engage volunteers and food donors through our proprietary web-based app to directly transfer nutritious excess food to social service agencies serving the food insecure.</p>
                         </div>
 
                         <div className="col-5 offset-1">
                             <form>
                                 <h5>Subscribe to our newsletter</h5>
+                                <br></br>
                                 <p>Monthly digest of whats new and exciting from us.</p>
                                 <div className="d-flex w-100 gap-2">
                                     <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
