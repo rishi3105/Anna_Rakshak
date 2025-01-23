@@ -27,6 +27,7 @@ export default function footer() {
                     <div className="row">
                         <div className="col-2">
                             <h5>Tabs</h5>
+                            <br></br>
                             <ul className="nav flex-column">
                                 <li className="nav-item abc mb-2"><a href="/" className="nav-link p-0 ">Home</a></li>
                                 <li className="nav-item abc mb-2"><a href="#whatwedo" className="nav-link p-0 ">What We Do</a></li>
@@ -38,13 +39,14 @@ export default function footer() {
                         
 
                         <div className="col-4 ">
-                            <h5>About Us</h5>
+                            <h5>About Us</h5><br></br>
                             <p className=' p-0'>Food Rescue is dedicated to eliminating hunger and food waste. Our mission is to keep food out of landfills and reduce greenhouse gases. We engage volunteers and food donors through our proprietary web-based app to directly transfer nutritious excess food to social service agencies serving the food insecure.</p>
                         </div>
 
                         <div className="col-5 offset-1">
                             <form>
                                 <h5>Subscribe to our newsletter</h5>
+                                <br></br>
                                 <p>Monthly digest of whats new and exciting from us.</p>
                                 <div className="d-flex w-100 gap-2">
                                     <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
@@ -59,7 +61,7 @@ export default function footer() {
                         </div>
                     </div>
 
-                    <div className="d-flex justify-content-between border-top- pr-5 mt-3">
+                    <div className="d-flex justify-content-vertical between border-top- pr-5 mt-3">
                         <p>&copy; 2024 Food Rescue. All rights reserved.</p>
                         <ul className="list-unstyled d-flex mt-2 icon">
                             <li className="ms-3"><a className="link-dark" href="/contact"><svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z" /></svg></a></li>
