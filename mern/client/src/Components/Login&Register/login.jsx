@@ -148,7 +148,7 @@ const Login = () => {
 
 
               <div className="signup-link">
-                Not a member?{" "}
+                Haven't registered?{" "}
                 <a href="#" onClick={switchToSignup}>
                   Signup now
                 </a>

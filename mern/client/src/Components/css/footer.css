@@ -17,7 +17,7 @@ h5 {
 .nav-item:hover{
   transition: 0.5s;
   transform: scale(1.1);
-  color: green;
+  /* color: green; */
 }
 
 .SubscribeBtn {

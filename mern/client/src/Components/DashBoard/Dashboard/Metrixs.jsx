@@ -51,7 +51,7 @@ const Metrics = () => {
                                 <i className="fa fa-apple-alt fa-4x"></i>
                             </div>
                             <h6 className="text-uppercase">Food Items Donated</h6>
-                            <h1 className="display-4">{quantitySum + "+"}</h1>
+                            <h1 className="display-4">{quantitySum}</h1>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ const Metrics = () => {
                                 <i className="fa fa-hands-helping fa-4x"></i>
                             </div>
                             <h6 className="text-uppercase">Volunteers</h6>
-                            <h1 className="display-4">{volunteers + "+"}</h1>
+                            <h1 className="display-4">{volunteers}</h1>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Metrics = () => {
                                 <i className="fa fa-users fa-4x"></i>
                             </div>
                             <h6 className="text-uppercase">Donors</h6>
-                            <h1 className="display-4">{beneficiaries + "+"}</h1>
+                            <h1 className="display-4">{beneficiaries}</h1>
                         </div>
                     </div>
                 </div>

@@ -17,6 +17,7 @@ const DonationHeader = () => {
         <header className="custom-header">
             <div className="header-content">
                 <div className="header-left">
+                    {/* {user && <div></div>} */}
                     <h1 className="header-title">Donations Page</h1>
                     <p className="header-description">Make a difference by donating today!</p>
                 </div>
