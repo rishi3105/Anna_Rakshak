@@ -141,7 +141,7 @@ const Register = () => {
                             </div>
 
                             <div className="signup-link">
-                                Already a member?{" "}
+                                Already registered?{" "}
                                 <a href="#" onClick={switchToLogin}>
                                     Login
                                 </a>

@@ -7,8 +7,8 @@ const containerStyle = {
 };
 
 const center = {
-    lat: 24.8607,
-    lng: 67.0011, // Coordinates for Karachi
+    lat: 19.2268, 
+    lng: 72.8210,
 };
 
 const GoogleMaps = ({ selectedLocationLat, selectedLocationLng }) => {

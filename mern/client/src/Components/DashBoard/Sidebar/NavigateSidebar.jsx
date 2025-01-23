@@ -20,7 +20,7 @@ const NavigateSidebar = ({ userName }) => {
             <ul className="nav flex-column sticky-top">
                 <li className="nav-item mb-3 ">
                     <a className="nav-link text-secondary" href="#">
-                        <h5>Greetings {userName}</h5>
+                        <h5>Welcome {userName}!</h5>
                     </a>
                 </li>
                 <li className="nav-item">
