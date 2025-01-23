@@ -36,7 +36,7 @@ export default function ContactForm() {
                                     type="email"
                                     name="email"
                                     id="email"
-                                    placeholder="ramsingh2022@mail.com"
+                                    placeholder="ramsingh2025@mail.com"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="email" className="formbold-form-label"> Mail </label>
