@@ -1,6 +1,7 @@
 .custom-main-footer{
-  background-color: #a9f3aa;
+  background-color:#e74c3c;
   max-width: 100% !important;
+  
   margin: 0;
   padding: 0px 30px 0px 30px !important;
   margin-bottom: 0px;
@@ -14,11 +15,16 @@ h5 {
 }
 
 
-.nav-item:hover{
+.nav-link:hover{
   transition: 0.5s;
   transform: scale(1.1);
+  background-color: #a9f3aa; 
 }
 
+/*.nav-item:hover{
+  background-color: #a9f3aa;
+}
+*/
 .SubscribeBtn {
   display: inline-block;
   position: relative;

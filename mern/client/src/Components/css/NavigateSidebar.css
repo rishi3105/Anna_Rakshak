@@ -3,9 +3,11 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
+h5{
+    color:black;
+}
 .nav-link {
-    color: #343a40;
+    color: #000000;
     margin-bottom: 8px;
 }
 
@@ -15,7 +17,7 @@
 
 .nav-link:hover i,
 .nav-link:hover span {
-    color: #28a745; /* Change the text and icon color to green on hover */
+    color:  #e74c3c; /* Change the text and icon color to green on hover */
 }
 
 .nav-link i {

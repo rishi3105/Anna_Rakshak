@@ -1,0 +1,45 @@
+.textBox {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .textBox h1 {
+    font-size: 62px;
+  }
+  
+  
+  .textBox p {
+    font-size: medium;
+    margin: 10px 0px 40px;
+  }
+
+  .title {
+    font-size: 80px;
+    color: #e74c3c;
+    font-weight: 600;
+
+  }
+  .ExploreBtn {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 12px 34px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .ExploreBtn:hover {
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    transition: 1s;
+    color: black;
+  }
