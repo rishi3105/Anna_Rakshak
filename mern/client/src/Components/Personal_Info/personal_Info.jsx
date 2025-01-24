@@ -59,7 +59,7 @@ export default function PersonalInfo() {
                                     type="text"
                                     name="firstname"
                                     id="firstname"
-                                    placeholder="Abdul"
+                                    placeholder="Ram"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="firstname" className="formbold-form-label"> First name </label>
@@ -69,7 +69,7 @@ export default function PersonalInfo() {
                                     type="text"
                                     name="lastname"
                                     id="lastname"
-                                    placeholder="Sameer"
+                                    placeholder="Singh"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="lastname" className="formbold-form-label"> Last name </label>
@@ -119,7 +119,7 @@ export default function PersonalInfo() {
                                     type="text"
                                     name="phone"
                                     id="phone"
-                                    placeholder="XXXX XXXXXXX"
+                                    placeholder="9876543210"
                                     className="formbold-form-input"
                                 />
                                 <label htmlFor="phone" className="formbold-form-label"> Phone Number </label>

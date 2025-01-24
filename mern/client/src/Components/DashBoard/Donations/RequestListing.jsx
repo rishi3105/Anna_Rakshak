@@ -266,7 +266,7 @@ const RequestListing = ({ dashboardView, handleLocationClick }) => {
                                             className='form-control'
                                         />
 
-                                        <label htmlFor="inputExpirationDate" className="form-label mb-1 mt-2">Expiration Date</label>
+                                        <label htmlFor="inputExpirationDate" className="form-label mb-1 mt-2">Expiry Date</label>
                                         <input
                                             type="date"
                                             name="expirationDate"
@@ -288,7 +288,7 @@ const RequestListing = ({ dashboardView, handleLocationClick }) => {
                                             <option value="Fresh Produce">Fresh Produce</option>
                                             <option value="Packaged Meals">Packaged Meals</option>
                                             <option value="Fruits & Vegetables">Fruits & Vegetables</option>
-                                            <option value="Bakery Itmes">Bakery Itmes</option>
+                                            <option value="Bakery Items">Bakery Items</option>
                                             <option value="Beverages">Beverages</option>
                                             <option value="Baby Food">Baby Food</option>
                                         </select>
