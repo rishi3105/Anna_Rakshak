@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { navLogo } from "../../assets";
 import MainLine from "./mainLine";
 import "../../App.css";
+
 export default function header({ id }) {
   const [user, setUser] = useState(null);
   const [userRole, setUserRole] = useState(null);

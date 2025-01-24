@@ -170,7 +170,7 @@ const RequestListing = ({ dashboardView, handleLocationClick }) => {
     const handleShowLocation = (lan, lng) => {
         // Open Google Maps with the specified location
         if (!dashboardView) {
-            window.open(`https://www.google.com/maps`, '_blank');
+            window.open(`https://www.google.com/maps?q=${lan},${lng}`, '_blank');
         }
         handleLocationClick(lan, lng);
     };

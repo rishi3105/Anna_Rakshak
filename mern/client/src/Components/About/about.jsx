@@ -15,7 +15,7 @@ const About = () => {
           <div className="innerDiv">
             <h2>Our Mission!</h2>
             <div className="content">
-              FoodShare is a digital platform that aims to address the issue of
+              Anna Rakshak is a digital platform that aims to address the issue of
               food wastage by connecting restaurants, grocery stores, and
               individuals willing to donate surplus food with local shelters or
               individuals in need. This initiative not only helps in reducing
@@ -31,7 +31,7 @@ const About = () => {
             <div className="content">
               Food wastage is a significant global issue, and there is a lack of
               efficient systems to channel surplus food to those who need it.
-              The FoodShare platform intends to bridge this gap by providing a
+              The Anna Rakshak platform intends to bridge this gap by providing a
               seamless digital interface for food donation, ensuring that
               surplus food reaches those who are in need.
             </div>

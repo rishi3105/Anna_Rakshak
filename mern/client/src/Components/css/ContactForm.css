@@ -41,7 +41,7 @@ h1 {
   background: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  color: green;
+  color: rgb(231, 76, 60);
   outline: none;
   resize: none;
 }
@@ -49,7 +49,7 @@ h1 {
   color: grey;
 }
 .formbold-form-input:focus {
-  border-color: green;
+  border-color: rgb(231, 76, 60);
 }
 .formbold-form-label {
   color: black;
@@ -60,7 +60,7 @@ h1 {
   margin-bottom: 18px;
 }
 .formbold-form-input:focus + .formbold-form-label {
-  color: green;
+  color: rgb(231, 76, 60);
 }
 
 .formbold-btn {
@@ -69,17 +69,19 @@ h1 {
   text-decoration: none;
   margin-top: 10px;
   padding: 12px 34px;
-  border: 1px solid green;
+  border: 1px solid rgb(231, 76, 60);
+  border-radius: 15px;
   background: transparent;
-  color: green;
+  color: rgb(231, 76, 60);
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  
 }
 
 .formbold-btn:hover {
-  border: 1px solid rgb(102, 235, 102);
-  background-color: rgb(102, 235, 102);
+  border: 1px solid rgb(231, 76, 60);
+  background-color: rgb(231, 76, 60);
   transition: 0.5s;
   color: black;
 }

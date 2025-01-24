@@ -40,7 +40,7 @@ export default function footer() {
 
                         <div className="col-4 ">
                             <h5>About Us</h5><br></br>
-                            <p className=' p-0'>Food Rescue is dedicated to eliminating hunger and food waste. Our mission is to keep food out of landfills and reduce greenhouse gases. We engage volunteers and food donors through our proprietary web-based app to directly transfer nutritious excess food to social service agencies serving the food insecure.</p>
+                            <p className=' p-0'>Anna Rakshak is dedicated to eliminating hunger and food waste. Our mission is to keep food out of landfills and reduce greenhouse gases. We engage volunteers and food donors through our proprietary web-based app to directly transfer nutritious excess food to social service agencies serving the food insecure.</p>
                         </div>
 
                         <div className="col-5 offset-1">
