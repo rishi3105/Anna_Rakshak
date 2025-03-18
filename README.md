@@ -1,6 +1,6 @@
-# FoodShare
+# Anna Rakshak
 
-The FoodShare platform is designed to provide a seamless digital interface for restaurants, grocery stores, and individuals to donate surplus food to local shelters or individuals in need. By doing so, this initiative aims to reduce food wastage while fostering a sense of community responsibility and support. The platform connects donors, recipients, and volunteers to ensure efficient and effective management of food resources.
+The Anna Rakshak platform is designed to provide a seamless digital interface for restaurants, grocery stores, and individuals to donate surplus food to local shelters or individuals in need. By doing so, this initiative aims to reduce food wastage while fostering a sense of community responsibility and support. The platform connects donors, recipients, and volunteers to ensure efficient and effective management of food resources.
 
 ## Table of Contents
 
@@ -40,8 +40,8 @@ Ensure the following prerequisites are installed before running the application:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/zeeshanibrarali/FoodShare
-cd FoodShare
+git clone https://github.com/zeeshanibrarali/Anna Rakshak
+cd Anna Rakshak
 cd mern
 npm install
 cd client
@@ -68,13 +68,13 @@ Open your browser and go to http://localhost:3000.
 ## Components
 
 ### Dashboard Component
-The Dashboard component in FoodShare serves as the main interface for authenticated users. It includes features such as real-time metrics, a request listing, and an integrated Google Maps view.
+The Dashboard component in Anna Rakshak serves as the main interface for authenticated users. It includes features such as real-time metrics, a request listing, and an integrated Google Maps view.
 
 ### Donation Component
-The Donation component in FoodShare handles the display of donation requests. It provides features for donors, volunteers, and recipients to interact with and manage incoming donation requests. The component is dynamic, adapting its features based on the user's role and the context in which it is used.
+The Donation component in Anna Rakshak handles the display of donation requests. It provides features for donors, volunteers, and recipients to interact with and manage incoming donation requests. The component is dynamic, adapting its features based on the user's role and the context in which it is used.
 
 ### Profile Component
-The Profile component in FoodShare is responsible for displaying user analytics, including personal information, food donation and receipt statistics, and educational content. This component utilizes charts to represent data and provides users with insights into their contributions and activities within the FoodShare platform.
+The Profile component in Anna Rakshak is responsible for displaying user analytics, including personal information, food donation and receipt statistics, and educational content. This component utilizes charts to represent data and provides users with insights into their contributions and activities within the Anna Rakshak platform.
 
 ## Interfaces
 
@@ -128,7 +128,7 @@ The Profile component in FoodShare is responsible for displaying user analytics,
 - **Abdul Haseeb Alam:** React.js (Frontend)
 
 ## Contributing
-We welcome contributions from the community! To contribute to the FoodShare project, please follow these guidelines:
+We welcome contributions from the community! To contribute to the Anna Rakshak project, please follow these guidelines:
 
 - Fork the repository.
 - Create a new branch: **git checkout -b feature/your-feature.**
